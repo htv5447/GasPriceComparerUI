@@ -1,3 +1,6 @@
+.navbar-brand{
+  text-shadow: 0 0 5px #80DE99, 0 0 5px #80DE99;
+}
 img{
   height: 1.5rem;
   padding-left: 0.5rem;
@@ -14,6 +17,22 @@ body{
   margin: -25px 0 0 -10px;
   padding-left: 1rem;
   z-index: 10;
+}
+.fas{
+  text-shadow: 0 0 5px #80DE99, 0 0 5px #80DE99;
+}
+
+.far{
+  color: #DDDDDD;
+  text-shadow: 0 0 5px #80DE99, 0 0 5px #80DE99;
+  margin-top: 0.92rem;
+  padding-right: 0.7rem;
+  
+}
+
+.fab{
+  margin-top: 0.35rem;
+  text-shadow: 0 0 5px #80DE99, 0 0 5px #80DE99;
 }
 
 .map-container{
@@ -44,3 +63,26 @@ body{
     width:100%;
     position:absolute;
   }
+
+.header{
+  text-shadow: 0 0 3px #80DE99, 0 0 5px #80DE99;
+}
+
+.h3{
+  text-shadow: 0 0 5px #80DE99, 0 0 5px #80DE99;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+#content{
+  margin-top: 7rem;
+  padding: 10px;
+}
+
+.usage{
+  padding-top: 3rem;
+}
+
