@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href=Logo/favicon.ico>
-    <title>GasPriceComparer's Information</title>
+    <title>Gas Price List</title>
     <!-- bootstrap script -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -22,15 +22,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
-
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="title">
@@ -48,25 +39,71 @@
                   <a class="nav-link" href="https://github.com/htv5447/GasPriceComparerUI"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index3.html" ><i  class="fas fa-info"></i></a>
+                  <a class="nav-link" href="infoPage.html" ><i  class="fas fa-info"></i></a>
                 </li>
                 
               </ul>
             </div>
           </nav>
     </section>
-    <section id="content">
-    <div>
-        <p class="h3">About GasPriceComparer</p>
-        
-        <p class="h5">Gas Price Comparer will compare the prices of all gas stations near your area to give you the best deal on gas. It will let you know if you need a membership or not, the fuel grades each gas station offers, and their respective prices.</p>
+
+    <!--Google map-->
+    <div class="map-container2" id="map-container-google-1" class="z-depth-1-half map-container" >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93239.73443882211!2d-77.73192500218772!3d43.08892546074204
+      !2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d14b7323bc153d%3A0xfe65be474604479e!2sRochester%2C%20NY%2014623!5e0!3m2!1sen!2sus!4v1632051354053!5m2!1sen!2sus" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
     </div>
-    <div class="usage">
-        <p class="h3">How to use</p>
-        <p class="h5">You just need to put your location into search bar and click the search button. So easy!!!</p>
-    </div>
-</section>
-</body>
     
+    <!--Google Maps-->
+    
+    
+
+    <table class="table table-striped table-hover">
+        <thead style="position: sticky;top: 0" class="thead-dark">
+            <tr>
+              <th class="header" scope="col">Locaton</th>
+              <th class="header" scope="col">Regular</th>
+              <th class="header" scope="col">Midgrade</th>
+              <th class="header" scope="col">Premium</th>
+              <th class="header" scope="col">Diesel</th>
+              <th class="header" scope="col">Membership</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Costco’s</td>
+              <td>$2.97</td>
+              <td>Unavailable</td>
+              <td>$3.38</td>
+              <td>$3.08</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>BJ’s</td>
+              <td>$2.99</td>
+              <td>Unavailable</td>
+              <td>$3.43</td>
+              <td>Unavailable</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Walmart</td>
+              <td>$2.97</td>
+              <td>$3.17</td>
+              <td>Unavailable</td>
+              <td>Unavailable</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Kwik Fill</td>
+              <td>$3.16</td>
+              <td>$3.39</td>
+              <td>$3.56</td>
+              <td>$3.29</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+
 </body>
 </html>
