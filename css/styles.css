@@ -1,5 +1,9 @@
-
-.body{
+img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+body{
     position: relative;
 }
 .input-group{
@@ -25,3 +29,18 @@
     width:100%;
     position:absolute;
     }
+
+.map-container2{
+    overflow:hidden;
+    padding-bottom:0;
+    position:relative;
+    height: 400px;
+    width:100%;
+}
+  .map-container2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
