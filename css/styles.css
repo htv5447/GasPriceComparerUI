@@ -1,0 +1,11 @@
+.body{
+    position: relative;
+}
+.input-group{
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: -25px 0 0 -10px;
+  padding-left: 1rem;
+}
